@@ -30,5 +30,5 @@ for i in range(iter):
 
     b = b - b_grad * learning_rate
     w = w - w_grad * learning_rate
-plt.plot(np.arange(0,100),loss_array)
+plt.plot(loss_array)
 print(b,w)
